@@ -1,0 +1,12 @@
+
+nums [1,2,3,4,5]
+function maxnum(nums){
+let max = nums[0]
+for(let i=0;i<num.length;i++){
+if(max<nums[i]){
+max= nums[i]
+}
+}
+return max ;
+}
+console.log(maxnum(nums));
